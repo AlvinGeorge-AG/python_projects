@@ -7,6 +7,7 @@ print("""
 2=substraction
 3=multiplication
 4=division
+5=Reminder
 """)
 oper=int(input("Enter operator:"))
 #operations
@@ -21,6 +22,18 @@ match oper:
         mult=a*b
         print("multiplication :",mult)
     case 4:
-        divi=a/b
-        print("division :",divi)
-        
+        if b!=0:
+            divi=a/b
+            print("division :",divi)
+        else:
+            print("Division by zero not defined")    
+    case 5:
+        if b!=0:
+            modu=a%b
+            print("Reminder :",modu)
+        else:
+            print("Division by zero not defined")
+    case _:
+        print("Error")
+            
+            
