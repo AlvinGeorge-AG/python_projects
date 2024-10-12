@@ -55,8 +55,7 @@ while True:
 
 
 
-"""
-check=input("Do you want to convert celsius to fahrenheit ,[y/n]")
+"""check=input("Do you want to convert celsius to fahrenheit ,[y/n]")
 while check=='y'or check=='n':
     if check=='y':
         cel=float(input("Enter the temperature in degree celsius :"))
@@ -74,11 +73,7 @@ while check=='y'or check=='n':
     continue
 while check!='y' or check!='n':
      print("Please enter yes[y] or no[n] !!")               
-     break
-
-            
-
-"""
+     break"""
 
 
 
