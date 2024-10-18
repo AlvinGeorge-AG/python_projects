@@ -7,7 +7,7 @@ print("* Value of r should be less than or equal to n")
 n=int(input("Enter the value of n :"))
 r=int(input("Enter the value of r :"))
 from math import factorial
-if n>0 and r<=n and n.is_integer() and r.is_integer():
+if n>0 and r<=n:
     com=(factorial(n)/(factorial(r)*(factorial(n-r))))
     print(n,'C',r,' is',com)
 else:
