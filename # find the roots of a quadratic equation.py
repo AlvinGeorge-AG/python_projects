@@ -10,8 +10,8 @@ c=float(input("Enter the value of c :"))
 print("Equation is ",a,'x^2+',b,'x+',c,'=0')
 D=((b*b)-4*a*c)
 if D>=0:
-    x1=(-b+(sqrt(D)))/(2*a)
-    x2=(-b-(sqrt(D)))/(2*a)
+    x1=(-b-(sqrt(D)))/(2*a)
+    x2=(-b+(sqrt(D)))/(2*a)
     print("One root is ",x1)
     print("Other root is ",x2)
 else:
