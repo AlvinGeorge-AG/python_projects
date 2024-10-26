@@ -5,4 +5,4 @@ A.sort()
 # # is_righttri(5,4,3)
 # right_triangle_identifier_usingFun.is_righttri(6,8,10)
 from right_triangle_identifier_usingFun import is_righttri
-is_righttri(3,4,5)
+is_righttri(2,3,4)
