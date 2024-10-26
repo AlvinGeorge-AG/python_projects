@@ -9,12 +9,15 @@ def is_righttri(A,B,C):
     C=float(C)
     sides=[A,B,C]
     sides.sort()
-    if (sides[2])**2 ==(sides[0])**2 +(sides[1])**2 :
-        return print("The triangle is a right triangle")
+    if sides[0]==0 and sides[1]==0 and sides[2]==0:
+        p1="Error"   
+    elif (sides[2])**2 ==(sides[0])**2 +(sides[1])**2 :
+        p1= "The triangle is a right triangle" 
     else:
-        return print("The triangle is not a right triangle")
+        p1 = "The triangle is not a right triangle"
+    return print(p1)   
     
-is_righttri(5,4,3)    
+# is_righttri(5,4,3)    
 
 
 
