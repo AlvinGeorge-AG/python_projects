@@ -4,11 +4,6 @@ o=[]
 for i in range(0,n):
     ask=int(input("Enter the number :"))
     o.append(ask)
-# print(o)
-i=0
-even=[]
-odd=[]
-while i in range(0,len(o)):
     if (o[i])%2==0:
         even.append(o[i])
     else :
