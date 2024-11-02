@@ -3,7 +3,7 @@ i=0
 summ=[]
 while i<n:
     ask=float(input("Enter the number :"))
-    summ=summ.append(ask)
+    summ.append(ask)
     i=i+1
 print("Max :",max(summ))    
 print("Min :",min(summ))    
