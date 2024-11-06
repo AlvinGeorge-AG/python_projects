@@ -6,4 +6,5 @@ for i in range(len(stringf)):
     if stringf[i] not in vow:
         newstr+=stringf[i]
 print(newstr)        
+#
 
