@@ -10,6 +10,3 @@ for j in y:
 newstr=''.join(y)
 print("Old string :",stringf)
 print("New string :",newstr)
-
-
-
