@@ -12,7 +12,7 @@ for i in strinf:
         no_upper+=1    
     elif i.islower():
         no_lower+=1    
-    if i.isalpha():
+    elif i.isalpha():
         no_letter+=1    
 print('Number of digits :',no_cout)  
 print("Number of Upper case Digits :",no_upper)  

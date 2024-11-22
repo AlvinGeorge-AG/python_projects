@@ -21,7 +21,7 @@ elif cho==2:
         decimalNu+=bit*(2**(position))
         num=num//10
         position+=1
-print('The corresponding decimal number is :',decimalNu)
+    print('The corresponding decimal number is :',decimalNu)
 
 
 

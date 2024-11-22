@@ -1,7 +1,7 @@
 #Check whether the given string is palindrome.( learn slicing )
 # z='MALAYALAM'
 # zz=z[::-1]
-y=input("Enter the string :")
+y=input("Enter the string :").lower()
 yy=y[::-1]
 if y==yy:
     print("The give string,",y,"is a Palindrome!")
