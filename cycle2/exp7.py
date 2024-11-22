@@ -1,11 +1,9 @@
-#to find he sum of digits of a number
-i=0
-x=0
-numb=input("enter a number :")
-y=list(numb)
+#to count the number of vowel characters in a string
+string=input("Enter a string :")
+vow="aeiou"
+count=0
+for i in string:
+    if i in vow:
+        count+=1
+print(count)
 
-while i in range(0,len(y)):
-    x=x+int(y[i])
-    i=i+1
-print(x)    
-print(y)

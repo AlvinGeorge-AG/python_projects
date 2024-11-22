@@ -1,25 +1,12 @@
-# a=1
-# b=0
-# c=0
-# num=int(input("Enter the no of series: "))
-# count=0
-# while count<=num:
-#     print(c,end=",")
-#     c=a+b 
-#     a=b
-#     b=c
-#     count+=1
-
-
-#print fibonacci seris 0,1,1,2,3,5,8,13,...n
-lastno=int(input("Enter the last number :"))
-a=1
-b=0
-c=0
-count=0
-while count<=lastno:
-    print(c,end=',')
-    c=a+b
-    a=b
-    b=c
-    count+=1
+#to check whether the given number is a krishnamurthi number
+from math import factorial ; print("! Number should be positive integer !")
+numb=input("Enter the number :")
+t=0
+y=list(numb)
+for i in range(0,len(y)):
+    z=factorial(int(y[i]))
+    t=t+z
+if t==int(numb):
+    print("The given number is a krishnamurthi number.")   
+else:
+        print("The given number is not a krishnamurthi number.")
