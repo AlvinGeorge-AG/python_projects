@@ -8,11 +8,11 @@ no=0
 for i in strinf:
     if i.isdigit():
         no_cout+=1
-    elif i.isupper():
+    if i.isupper():
         no_upper+=1    
-    elif i.islower():
+    if i.islower():
         no_lower+=1    
-    elif i.isalpha():
+    if i.isalpha():
         no_letter+=1    
 print('Number of digits :',no_cout)  
 print("Number of Upper case Digits :",no_upper)  
