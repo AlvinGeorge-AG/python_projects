@@ -6,4 +6,4 @@ while count<len(num):
     if int(num[count])>larg:
         larg=int(num[count])
     count+=1
-print(larg)        
+print('Largest Digit :',larg)        

@@ -3,7 +3,7 @@ digit=input('Enter a Number :')
 for i in digit:
     match int(i):
         case 1:
-            print('one ',end='')
+            print('One ',end='')
         case 2:
             print('Two ',end='')
         case 3:
@@ -15,10 +15,10 @@ for i in digit:
         case 6:
             print('Six ',end='')
         case 7:
-            print('seven ',end='') 
+            print('Seven ',end='') 
         case 8:
-            print('eight ',end='') 
+            print('Eight ',end='') 
         case 9:
-            print('nine ',end='')
+            print('Nine ',end='')
         case 0:
-            print('zero ',end='')                                  
+            print('Zero ',end='')                                  
