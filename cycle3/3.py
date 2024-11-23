@@ -1,10 +1,7 @@
-N=int(input("Enter a value :"))
-p=0
-while p<N:
-    i=N
-    c=0    
-    while c<i:
-        print(i,end=' ')
-        i=i-1
+N=int(input("Enter the number of lines :"))
+for i in range(N):
+    c=0
+    for j in range(1,N+1,2):
+        a=j
+        print(a*'*',end=' ')
     print()    
-    N=N-1
