@@ -7,6 +7,6 @@ def sumf():
         sum+=i
     return sum
 print(sumf()) 
-# sumf()   
+# sumf()   #function calling
 
 
