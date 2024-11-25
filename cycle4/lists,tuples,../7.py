@@ -1,0 +1,6 @@
+#Read a string and print the words in sorted order after removing duplicate words.( remove the repetition)
+s=input('Enter a string :')
+ss=s.split(' ')
+ss=sorted(ss)
+st=set(ss)
+print(st)
