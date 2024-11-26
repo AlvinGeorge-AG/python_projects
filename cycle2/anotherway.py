@@ -24,3 +24,11 @@
        
 #         y*=i
 # print(y)        
+#To find the frequency of occurance of a character in a string using dictionary
+inp=input("Enter the string :")
+lt=list(inp)
+
+for i in inp:
+    dic={i:0}
+    dic.update(i)
+print(dic)    

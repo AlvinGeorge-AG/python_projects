@@ -1,16 +1,12 @@
-# Program to check whether the given number is a valid mobile number or not using functions.
-# Rules:
-# 1. Every number should contain exactly 10 digits.
-# 2. The first digit should be 7 or 8 or 9
-def mobile_number():
-    N=input("Enter the mobile number :")
-    f=['7','8','9']
-    if N[0] in f:
-        if len(N)==10:
-            R="The Mobile number is Active "
-        else:
-            R="The Mobile number is Fake !"     
+#Write a recursive function to generate n'th Fibonacci number.Use this function to generate Fibonacci series.
+#fibonacci series 0 1 1 2 3 5 8 13....
+def fibo(n):
+    if n==1:
+        return 0
+    if n==2:
+        return 1
+    if n==3:
+        return 1
     else:
-        R="The Mobile number is Fake !"  
-    return R 
-print(mobile_number())         
+        return fibo(n-1) + fibo(n-2)
+print(fibo(4))
