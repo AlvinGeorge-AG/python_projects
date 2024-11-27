@@ -1,4 +1,4 @@
-#check whether the given number is prime or not
+check whether the given number is prime or not
 n=int(input("Enter a number :"))
 flag=True
 for i in range(2,n):
