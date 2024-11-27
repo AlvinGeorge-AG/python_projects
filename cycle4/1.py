@@ -1,12 +1,11 @@
-# to find the sum of  numbers in the range between upper and lower bound
-def sumf():
-    a=int(input("Enter the lower bound :"))
-    b=int(input("Enter the higher bound :"))
-    sum=0
-    for i in range(a+1,b):
-        sum+=i
-    return sum
-print(sumf()) 
-# sumf()   #function calling
-
-
+#Write a function to check whether the given number is even or odd. ( return True or False)
+def odd_no():
+    "Returns True if an Odd number"
+    n=int(input("Enter a number :"))
+    if n%2==0:
+        R=False
+    else:
+        R=True
+    return R
+print(odd_no())
+        
