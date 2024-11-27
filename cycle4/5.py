@@ -11,3 +11,4 @@ def radius():
     radiuss=math.sqrt(((a-x)**2 )+((b-y)**2))
     return radiuss
 print(radius())
+is_prime
