@@ -12,5 +12,5 @@ while count<times:
     init_h=newh
     totalh+=newh
     count+=1
-print('Total height the ball travelled :',round(totalh,2))
+print('Total distance the ball travelled :',round(totalh,2))
 

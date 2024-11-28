@@ -3,7 +3,7 @@ if N<=26:
     for i in range(N):
         c=0
         f=ord('A')
-        while c<=i:
+        while c<=i:      
             g=chr(f)
             print(g,end=' ')
             c=c+1

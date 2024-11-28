@@ -1,4 +1,4 @@
-N=int(input("Enter a value :"))
+N=int(input("Enter a value for n :"))
 p=0
 while p<N:
     i=N
