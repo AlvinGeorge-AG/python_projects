@@ -1,4 +1,5 @@
-#Write a Python program to calculate the area of a circle, given the center and a point on the perimeter. Use a function to find the radius as the distance between two points.
+#Write a Python program to calculate the area of a circle, given the center and a point on the perimeter. 
+# Use a function to find the radius as the distance between two points.
 #center be (a,b)
 import math
 a=float(input('Enter the x cordinate of center :'))
@@ -9,6 +10,7 @@ y=float(input('Enter the y cordinate of a point on the perimeter :'))
 point=(x,y)
 def radius():
     radiuss=math.sqrt(((a-x)**2 )+((b-y)**2))
-    return radiuss
+    area=math.pi*(radiuss**2)
+    return 'Area :',area
 print(radius())
 

@@ -12,7 +12,7 @@ def isPrime(n):
                 flag=True
     return flag
 N=int(input("Enter a number :"))
-for i in range(2,N):
+for j in range(2,N):
     if N%i==0:
-        if isPrime(i):
-            print(i)
+        if isPrime(j):
+            print(j)

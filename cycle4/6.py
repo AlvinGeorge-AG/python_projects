@@ -3,12 +3,11 @@ n=int(input("Enter the value of n:"))
 r=int(input("Enter the value of r:"))
 def factorial(n):
     if n==1:
-        g=1
+        return 1
     elif n==0:
-        g=1
+        return 1
     else:
-        g=n*factorial(n-1)
-    return g  
+        return n*factorial(n-1)
 print('''1-nCr\n2-nPr''')  
 def nCr():
     "nCr(n) will return (n!/(r!(n-r)!)) ; n>=r"
@@ -17,7 +16,7 @@ def nCr():
 def nPr():
     v=(factorial(n))/(factorial(n-r))
     return v
-H=input("Enter the choice (1 or 2):")
+H=int(input("Enter the choice (1 or 2):"))
 if H==1:
     print(nCr())
 else:

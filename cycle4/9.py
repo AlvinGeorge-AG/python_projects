@@ -10,4 +10,4 @@ def gdc(a,b):
         return max
     else:
         return gdc(min,max%min)
-print(gdc(36,24))    
+print(gdc(24,10))    
