@@ -5,23 +5,23 @@ def prime(n):
         if n%i==0:
             flag=False
             break
+    if n==1:
+        return False
     if flag==True:
-        a=True
+        return True
     else:
-        a=False  
-    return a
+        return False  
 N=int(input("How many numbers you want to enter :"))
 lt=[]
 pr=[]
 co=[]
 for i in range(N):
     n=int(input('Enter the number :'))
-    lt.append(n)
+    if n==1:
+        continue
     if prime(n)==True:
         pr.append(n)
     else:
         co.append(n)
-
-print('list =',lt)
 print('prime =',pr)
 print('composite =',co)
