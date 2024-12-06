@@ -16,7 +16,15 @@ def prime(n):
     return flag
 #subpart
 print(prime(n))
-lt=[]
 for i in range(2,n):
     lt.append(i)
 print(list(filter(prime,lt)))
+lt2=[]
+h=2
+while len(lt2)<n:
+    if prime(h)==True:
+        lt2.append(h)
+    h+=1
+
+print(f'{n}th prime number : ',lt2[-1])        
+
